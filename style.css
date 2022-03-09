@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    margin-top: 100px;
+   background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+  
+}
+.slider_container{
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    /* margin-left: -100px; */
+    background-color: aqua;
+    justify-content: center;
+}
+.slide{
+    min-width: 270px;
+    height: 300px;
+    background-color: red;
+    transition: .2s;
+    transform: translateX(600px);
+}
+.active{
+    min-width: 450px !important;
+    height: 400px;
+    background-color: black !important;
+}
+
+
+
+/* 
+
+
+
+
+*/
